@@ -68,7 +68,10 @@
                           @{@"name" : @"Animated Transitions Demo",
                             @"vc" : @"AnimationTransitionViewController"},
                           @{@"name" : @"Animated UIControls Demo",
-                            @"vc" : @"LAControlsViewController"}];
+                            @"vc" : @"LAControlsViewController"},
+						  @{@"name" : @"Crash Test Concurrency Updates",
+							@"vc" : @"LATestConcurrencyCrashController"}
+						  ];
 }
 
 - (void)_playLottieAnimation {
